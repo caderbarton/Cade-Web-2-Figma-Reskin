@@ -1,3 +1,32 @@
 /* =============
     Footer
 ============= */
+.location{
+    display:grid;
+        grid-template-columns:50% 25%;
+        grid-template-areas:
+        "state ."
+        "arrow addy"
+        "phone number"
+        ;
+        .state{
+            grid-area:state;
+        }
+        .arrow{
+            grid-area:arrow;
+        }
+        .addy{
+            grid-area:addy;
+        }
+        .phone{
+            grid-area:phone;
+        }
+        .number{
+            grid-area:number;
+        }
+    }
+
+.row{
+    display:grid;
+        grid-template-columns:25% 25% 25% 25%;
+}

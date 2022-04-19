@@ -1,0 +1,28 @@
+/* =============
+    section2
+============= */
+.section2{
+    .content{
+        display:grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas:
+        "words picture"
+        "button picture"
+
+        ;
+        h3{
+            grid-area:words;
+        }
+        button{
+            grid-area:button;
+        }
+        div{
+            grid-area:picture;
+        }
+    }
+    .pic{
+        img{
+            width:100%
+     }
+    }
+}

@@ -352,6 +352,15 @@ template {
 /* =============
     Base
 ============= */
+.container {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". content .";
+}
+.container .content {
+  grid-area: content;
+}
+
 /* =============
     Typography
 ============= */
@@ -382,6 +391,71 @@ textarea {
 /* =============
     Header
 ============= */
+header .content {
+  display: grid;
+  grid-template-columns: 15% auto;
+}
+
 /* =============
     Footer
 ============= */
+.location {
+  display: grid;
+  grid-template-columns: 50% 25%;
+  grid-template-areas: "state ." "arrow addy" "phone number";
+}
+.location .state {
+  grid-area: state;
+}
+.location .arrow {
+  grid-area: arrow;
+}
+.location .addy {
+  grid-area: addy;
+}
+.location .phone {
+  grid-area: phone;
+}
+.location .number {
+  grid-area: number;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+/* =============
+    Hero
+============= */
+.hero img {
+  width: 100%;
+}
+
+/* =============
+    section2
+============= */
+.section2 .content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "words picture" "button picture";
+}
+.section2 .content h3 {
+  grid-area: words;
+}
+.section2 .content button {
+  grid-area: button;
+}
+.section2 .content div {
+  grid-area: picture;
+}
+.section2 .pic img {
+  width: 100%;
+}
+
+/* =============
+    section2
+============= */
+.what img {
+  width: 100%;
+}
