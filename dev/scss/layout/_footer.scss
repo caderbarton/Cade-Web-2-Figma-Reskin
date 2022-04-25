@@ -25,10 +25,39 @@
         }
         .number{
             grid-area:number;
+            
         }
     }
 
 .row{
     display:grid;
         grid-template-columns:25% 25% 25% 25%;
+}
+
+.footer{
+    @include md{
+        display:grid;
+        grid-template-columns:  50% 50%;
+        grid-template-areas: 
+        "loc news"
+        "loc follow"
+        ;
+        .footer-sub-section-loc{
+            grid-area:loc;
+            width:100%
+
+        }
+        .footer-sub-section-news{
+            grid-area:news;
+            width:100%
+
+        }
+        .footer-sub-section-follow{
+            grid-area:follow;
+            width:100%
+
+        }
+        
+    }
+    
 }

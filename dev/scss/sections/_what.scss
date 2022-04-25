@@ -5,4 +5,38 @@
     img{
             width:100%
      }
+     @include md{
+        display:grid;
+        grid-template-columns:  25% 25% 25% 25%;
+        grid-template-areas: 
+        "a1 a1 a2 a2"
+        "a3 a3 a4 a4"
+        ". a5 a5 ."
+        ;
+        .article-container1{
+            grid-area:a1;
+            width:100%
+
+        }
+        .article-container2{
+            grid-area:a2;
+            width:100%
+
+        }
+        .article-container3{
+            grid-area:a3;
+            width:100%
+
+        }
+        .article-container4{
+            grid-area:a4;
+            width:100%
+
+        }
+        .article-container5{
+            grid-area:a5;
+            width:100%
+
+        }
+}
 }

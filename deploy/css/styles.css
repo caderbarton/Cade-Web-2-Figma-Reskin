@@ -427,6 +427,26 @@ header .content {
   grid-template-columns: 25% 25% 25% 25%;
 }
 
+@media (min-width: 768px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "loc news" "loc follow";
+  }
+  .footer .footer-sub-section-loc {
+    grid-area: loc;
+    width: 100%;
+  }
+  .footer .footer-sub-section-news {
+    grid-area: news;
+    width: 100%;
+  }
+  .footer .footer-sub-section-follow {
+    grid-area: follow;
+    width: 100%;
+  }
+}
+
 /* =============
     Hero
 ============= */
@@ -508,4 +528,31 @@ header .content {
 ============= */
 .what img {
   width: 100%;
+}
+@media (min-width: 768px) {
+  .what {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-areas: "a1 a1 a2 a2" "a3 a3 a4 a4" ". a5 a5 .";
+  }
+  .what .article-container1 {
+    grid-area: a1;
+    width: 100%;
+  }
+  .what .article-container2 {
+    grid-area: a2;
+    width: 100%;
+  }
+  .what .article-container3 {
+    grid-area: a3;
+    width: 100%;
+  }
+  .what .article-container4 {
+    grid-area: a4;
+    width: 100%;
+  }
+  .what .article-container5 {
+    grid-area: a5;
+    width: 100%;
+  }
 }
