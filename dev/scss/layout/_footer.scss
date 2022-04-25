@@ -14,12 +14,14 @@
         }
         .arrow{
             grid-area:arrow;
+            max-width:50px;
         }
         .addy{
             grid-area:addy;
         }
         .phone{
             grid-area:phone;
+            max-width: 50px;
         }
         .number{
             grid-area:number;

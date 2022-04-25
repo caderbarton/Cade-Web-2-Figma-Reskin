@@ -409,12 +409,14 @@ header .content {
 }
 .location .arrow {
   grid-area: arrow;
+  max-width: 50px;
 }
 .location .addy {
   grid-area: addy;
 }
 .location .phone {
   grid-area: phone;
+  max-width: 50px;
 }
 .location .number {
   grid-area: number;
@@ -428,8 +430,43 @@ header .content {
 /* =============
     Hero
 ============= */
+.hero {
+  margin-bottom: 60;
+}
 .hero img {
   width: 100%;
+}
+@media (min-width: 768px) {
+  .hero {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "hero2 hero3";
+  }
+  .hero .hero2 {
+    grid-area: hero2;
+    width: 100%;
+  }
+  .hero .hero3 {
+    grid-area: hero3;
+    width: 100%;
+  }
+}
+
+/* =============
+    section1
+============= */
+@media (min-width: 768px) {
+  .section1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "sec1 sec2";
+  }
+  .section1 .sec1 {
+    grid-area: sec1;
+  }
+  .section1 .sec2 {
+    grid-area: sec2;
+  }
 }
 
 /* =============
@@ -451,6 +488,19 @@ header .content {
 }
 .section2 .pic img {
   width: 100%;
+}
+@media (min-width: 768px) {
+  .section2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "sec1 sec2";
+  }
+  .section2 .sec1 {
+    grid-area: sec1;
+  }
+  .section2 .sec2 {
+    grid-area: sec2;
+  }
 }
 
 /* =============

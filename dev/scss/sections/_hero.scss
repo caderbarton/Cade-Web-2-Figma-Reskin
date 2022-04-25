@@ -4,7 +4,28 @@
 
 
 .hero{
+    margin-bottom: 60;
     img{
         width:100%
     }
+
+    @include md{
+        display:grid;
+        grid-template-columns:  50% 50%;
+        grid-template-areas: 
+        "hero2 hero3"
+        ;
+        .hero2{
+            grid-area:hero2;
+            width:100%
+
+        }
+        .hero3{
+            grid-area:hero3;
+            width:100%
+
+        }
+        
+    }
+    
 }
