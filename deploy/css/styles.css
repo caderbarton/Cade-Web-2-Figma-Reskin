@@ -428,22 +428,29 @@ header .content {
 }
 
 @media (min-width: 768px) {
-  .footer {
+  footer {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-areas: "loc news" "loc follow";
   }
-  .footer .footer-sub-section-loc {
+  footer .footer-sub-section-loc {
     grid-area: loc;
     width: 100%;
   }
-  .footer .footer-sub-section-news {
+  footer .footer-sub-section-news {
     grid-area: news;
     width: 100%;
   }
-  .footer .footer-sub-section-follow {
+  footer .footer-sub-section-follow {
     grid-area: follow;
     width: 100%;
+  }
+}
+@media (min-width: 768px) and (min-width: 992px) {
+  footer {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-areas: "loc news follow";
   }
 }
 
@@ -554,5 +561,12 @@ header .content {
   .what .article-container5 {
     grid-area: a5;
     width: 100%;
+  }
+}
+@media (min-width: 768px) and (min-width: 992px) {
+  .what {
+    display: grid;
+    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+    grid-template-areas: "a1 a1 a2 a2 a3 a3" ". a4 a4 a5 a5 .";
   }
 }

@@ -34,7 +34,7 @@
         grid-template-columns:25% 25% 25% 25%;
 }
 
-.footer{
+footer{
     @include md{
         display:grid;
         grid-template-columns:  50% 50%;
@@ -58,6 +58,13 @@
 
         }
         
+    @include lg{
+            display:grid;
+            grid-template-columns:  33.33% 33.33% 33.33%;
+            grid-template-areas: 
+            "loc news follow"
+        
     }
     
+}
 }
