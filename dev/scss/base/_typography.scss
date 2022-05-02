@@ -1,3 +1,93 @@
 /* =============
     Typography
 ============= */
+body{
+    font-family: 'Libre Franklin', sans-serif; 
+
+    h1{
+        font-weight: 400;
+        font-size: 23.52px;
+        @include lg{
+            font-size: 33.6px;
+            
+        }
+    }
+
+    .topnav{
+        font-weight: 400;
+        font-size: 16px;
+        @include md{
+            font-size: 30px;
+        }
+        @include lg{
+            font-size: 35px;
+
+        }
+    }
+    h2{
+        font-weight: 700;
+        font-size: 18px;
+        @include lg{
+            font-size: 25px;
+            
+        }
+    }
+
+    .section1{
+        .sec2{
+            font-weight: 700;
+            font-size: 16px;
+        }
+    }
+    h3{
+        font-weight: 400;
+        font-size: 22px;
+        @include md{
+            font-size: 29px;
+        }
+        @include lg{
+            font-size: 31px;
+        }
+    }
+    button{
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    .wwd{
+        font-weight: 400;
+        font-size: 20px;
+        @include md{
+            font-size: 28px;
+        }
+        @include lg{
+            font-size: 37px;
+        }
+    }
+    h5{
+        font-weight: 700;
+        font-size: 27px;
+    }
+    .what{
+        p{
+            font-weight: 400;
+            font-size: 15px;
+        }
+    }
+    h4{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .state{
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .addy{
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .number{
+        font-weight: 400;
+        font-size: 12px;
+    }
+}
