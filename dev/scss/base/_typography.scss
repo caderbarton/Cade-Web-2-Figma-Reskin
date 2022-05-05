@@ -7,6 +7,7 @@ body{
     h1{
         font-weight: 400;
         font-size: 23.52px;
+        color: $cream;
         @include lg{
             font-size: 33.6px;
             
@@ -16,6 +17,7 @@ body{
     .topnav{
         font-weight: 400;
         font-size: 16px;
+        color: $grey;
         @include md{
             font-size: 30px;
         }
@@ -27,6 +29,7 @@ body{
     h2{
         font-weight: 700;
         font-size: 18px;
+        color: $darkblue;
         @include lg{
             font-size: 25px;
             
@@ -37,11 +40,13 @@ body{
         .sec2{
             font-weight: 700;
             font-size: 16px;
+            color: $darkblue;
         }
     }
     h3{
         font-weight: 400;
         font-size: 22px;
+        color: $darkblue;
         @include md{
             font-size: 29px;
         }
@@ -57,6 +62,7 @@ body{
     .wwd{
         font-weight: 400;
         font-size: 20px;
+        color: $grey2;
         @include md{
             font-size: 28px;
         }
@@ -67,27 +73,33 @@ body{
     h5{
         font-weight: 700;
         font-size: 27px;
+        color: $black;
     }
     .what{
         p{
             font-weight: 400;
             font-size: 15px;
+            color: $black;
         }
     }
     h4{
         font-weight: 700;
         font-size: 20px;
+        color: $lightblue;
     }
     .state{
         font-weight: 700;
         font-size: 16px;
+        color: $lightblue;
     }
     .addy{
         font-weight: 400;
         font-size: 12px;
+        color: $grey3;
     }
     .number{
         font-weight: 400;
         font-size: 12px;
+        color: $grey3;
     }
 }

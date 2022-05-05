@@ -370,6 +370,7 @@ body {
 body h1 {
   font-weight: 400;
   font-size: 23.52px;
+  color: #FCF2E0;
 }
 @media (min-width: 992px) {
   body h1 {
@@ -379,6 +380,7 @@ body h1 {
 body .topnav {
   font-weight: 400;
   font-size: 16px;
+  color: #93A8AC;
 }
 @media (min-width: 768px) {
   body .topnav {
@@ -393,6 +395,7 @@ body .topnav {
 body h2 {
   font-weight: 700;
   font-size: 18px;
+  color: #001D39;
 }
 @media (min-width: 992px) {
   body h2 {
@@ -402,10 +405,12 @@ body h2 {
 body .section1 .sec2 {
   font-weight: 700;
   font-size: 16px;
+  color: #001D39;
 }
 body h3 {
   font-weight: 400;
   font-size: 22px;
+  color: #001D39;
 }
 @media (min-width: 768px) {
   body h3 {
@@ -424,6 +429,7 @@ body button {
 body .wwd {
   font-weight: 400;
   font-size: 20px;
+  color: #637275;
 }
 @media (min-width: 768px) {
   body .wwd {
@@ -438,26 +444,32 @@ body .wwd {
 body h5 {
   font-weight: 700;
   font-size: 27px;
+  color: #000;
 }
 body .what p {
   font-weight: 400;
   font-size: 15px;
+  color: #000;
 }
 body h4 {
   font-weight: 700;
   font-size: 20px;
+  color: #A5BEFF;
 }
 body .state {
   font-weight: 700;
   font-size: 16px;
+  color: #A5BEFF;
 }
 body .addy {
   font-weight: 400;
   font-size: 12px;
+  color: #C3C1CA;
 }
 body .number {
   font-weight: 400;
   font-size: 12px;
+  color: #C3C1CA;
 }
 
 /* =============
@@ -490,11 +502,16 @@ textarea {
 header .content {
   display: grid;
   grid-template-columns: 15% auto;
+  background-color: #001D39;
 }
 
 /* =============
     Footer
 ============= */
+footer {
+  background-color: #001D39;
+}
+
 .location {
   display: grid;
   grid-template-columns: 50% 25%;
@@ -584,6 +601,12 @@ header .content {
     grid-template-columns: 50% 50%;
     grid-template-areas: "sec1 sec2";
   }
+  .section1 .s1 {
+    background-color: #A5BEFF;
+  }
+  .section1 .s2 {
+    background-color: #FC9E47;
+  }
   .section1 .sec1 {
     grid-area: sec1;
   }
@@ -596,6 +619,7 @@ header .content {
     section2
 ============= */
 .section2 .content {
+  background-color: #A5BEFF;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-areas: "words picture" "button picture";
@@ -629,6 +653,9 @@ header .content {
 /* =============
     section2
 ============= */
+.what .container {
+  background-color: #F8F8FA;
+}
 .what img {
   width: 100%;
 }
