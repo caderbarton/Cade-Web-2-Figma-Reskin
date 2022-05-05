@@ -6,7 +6,9 @@
         background-color:  $grey4;
     }
     img{
+            display:block;
             width:100%
+            
      }
      @include md{
         display:grid;

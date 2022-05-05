@@ -11,7 +11,7 @@
   "files" : {
     "\/assets\/donate.jpg" : {
       "ft" : 16384,
-      "iS" : 4498126,
+      "iS" : 2113026,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/donate.jpg",
@@ -21,6 +21,14 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/assets\/donate.tif" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/donate.tif",
+      "oF" : 0
     },
     "\/assets\/education.jpg" : {
       "ft" : 16384,
@@ -178,6 +186,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/search.png" : {
+      "ft" : 32768,
+      "iS" : 1711,
+      "oA" : 0,
+      "oAP" : "\/assets\/search.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/success.jpg" : {
       "ft" : 16384,
       "iS" : 2158067,
@@ -193,7 +214,7 @@
     },
     "\/assets\/team.jpg" : {
       "ft" : 16384,
-      "iS" : 6077,
+      "iS" : 17304,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/assets\/team.jpg",
@@ -244,7 +265,7 @@
     },
     "\/deploy\/img\/donate.jpg" : {
       "ft" : 16384,
-      "iS" : 4498126,
+      "iS" : 2113026,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/donate.jpg",
@@ -254,6 +275,14 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/deploy\/img\/donate.tif" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/donate.tif",
+      "oF" : 0
     },
     "\/deploy\/img\/education.jpg" : {
       "ft" : 16384,
@@ -411,6 +440,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/search.png" : {
+      "ft" : 32768,
+      "iS" : 1711,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/search.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/success.jpg" : {
       "ft" : 16384,
       "iS" : 2158067,
@@ -426,7 +468,7 @@
     },
     "\/deploy\/img\/team.jpg" : {
       "ft" : 16384,
-      "iS" : 6077,
+      "iS" : 17304,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/team.jpg",
@@ -661,6 +703,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_hero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_nav.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_nav.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

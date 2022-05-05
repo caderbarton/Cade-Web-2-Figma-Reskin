@@ -5,8 +5,14 @@ footer{
     background-color: $darkblue;
 }
 .location{
+    
+    .sec1{
+        border-style: solid;
+        border-bottom: 5px black;
+        }
+
     display:grid;
-        grid-template-columns:50% 25%;
+        grid-template-columns:10% auto;
         grid-template-areas:
         "state ."
         "arrow addy"
@@ -17,14 +23,14 @@ footer{
         }
         .arrow{
             grid-area:arrow;
-            max-width:50px;
+            max-width:20.48px;
         }
         .addy{
             grid-area:addy;
         }
         .phone{
             grid-area:phone;
-            max-width: 50px;
+            max-width: 16px;
         }
         .number{
             grid-area:number;
@@ -38,6 +44,15 @@ footer{
 }
 
 footer{
+    .sec1{
+        border-bottom: 5px $grey5;
+    }
+    .footer-sub-section-follow{
+        img{
+            width: 22.4px;
+        }
+    }
+
     @include md{
         display:grid;
         grid-template-columns:  50% 50%;
