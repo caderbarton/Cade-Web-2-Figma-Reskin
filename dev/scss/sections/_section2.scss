@@ -2,6 +2,12 @@
     section2
 ============= */
 .section2{
+    .sec1{
+        margin-bottom: 16px;
+    }
+    .sec2{
+        margin-bottom: 30px;
+    }
     .content{
         background-color: $lightblue;
         display:grid;
@@ -40,5 +46,9 @@
             grid-area:sec2;
          }
         
+    }
+    @include xl{
+        padding-left: 225px;
+        padding-right: 225px;
     }
     }

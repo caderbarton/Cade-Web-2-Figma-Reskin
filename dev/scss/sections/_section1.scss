@@ -2,6 +2,7 @@
     section1
 ============= */
 .section1{
+    margin-bottom: 14px;
     .s1{
         background-color: $lightblue;
 
@@ -15,15 +16,6 @@
         grid-template-areas:
         "sec1 sec2"
         ;
-        .s1{
-            background-color: $lightblue;
-
-        }
-        .s2{
-            background-color: $orange;
-
-        }
-
         .sec1{
             grid-area:sec1;
             
