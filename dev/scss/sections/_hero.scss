@@ -4,6 +4,9 @@
 
 
 .hero{
+    .hero4{
+        display: none;
+    }
     margin-bottom: 60;
     img{
         display: block;
@@ -26,7 +29,26 @@
             width:100%
 
         }
+        .hero4{
+            grid-area:hero4;
+            width:100%
+        }
+
         
     }
+
+    @include xl{
+        display:grid;
+        grid-template-columns:  50% 50%;
+        grid-template-areas: 
+        "hero2 hero3"
+        "hero2 hero4"
+        ;
+        .hero4{
+            display: block;
+            grid-area:hero4;
+            width:100%
+        }
     
+}
 }

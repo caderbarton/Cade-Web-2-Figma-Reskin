@@ -6,9 +6,13 @@ button{
     border-style:none;
     width: 98px;
     height: 27px;
+}
 
-    .search{
-        border-style:solid;
+.searchbar{
+    button{
+    background-color: $orange;
+    border-style:none;
+    width: 43px;
+    height: 27px;
     }
-
 }

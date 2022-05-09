@@ -95,6 +95,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/assets\/hero4.jpg" : {
+      "ft" : 16384,
+      "iS" : 138735,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/hero4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/assets\/impact.jpg" : {
       "ft" : 16384,
       "iS" : 2796777,
@@ -198,6 +211,14 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/assets\/spine.pdf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/spine.pdf",
+      "oF" : 0
     },
     "\/assets\/success.jpg" : {
       "ft" : 16384,
@@ -342,6 +363,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/hero3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero4.jpg" : {
+      "ft" : 16384,
+      "iS" : 131637,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero4.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

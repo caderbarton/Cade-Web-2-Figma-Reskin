@@ -7,6 +7,7 @@ footer{
 .location{
     
     .sec1{
+        border: 10px;
         border-style: solid;
         border-bottom: 100px black solid;
         }
@@ -44,9 +45,6 @@ footer{
 }
 
 footer{
-    .sec1{
-        border-bottom: 5px $grey5;
-    }
     .footer-sub-section-follow{
         img{
             width: 22.4px;
