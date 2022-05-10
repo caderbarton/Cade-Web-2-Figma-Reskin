@@ -517,13 +517,15 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  background-color: #001D39;
+}
 header img {
   width: 50px;
 }
 header .content {
   display: grid;
   grid-template-columns: 15% auto;
-  background-color: #001D39;
 }
 
 /* =============
@@ -533,15 +535,18 @@ footer {
   background-color: #001D39;
 }
 
+.fsec1 {
+  border-bottom: 1px solid #979797;
+}
+
+.fsec2 {
+  border-bottom: 1px solid #979797;
+}
+
 .location {
   display: grid;
   grid-template-columns: 10% auto;
   grid-template-areas: "state ." "arrow addy" "phone number";
-}
-.location .sec1 {
-  border: 10px;
-  border-style: solid;
-  border-bottom: 100px black solid;
 }
 .location .state {
   grid-area: state;
@@ -744,6 +749,7 @@ footer .footer-sub-section-follow img {
 }
 @media (min-width: 768px) {
   .what {
+    gap: 16px;
     padding-left: 16px;
     padding-left: 16px;
     display: grid;

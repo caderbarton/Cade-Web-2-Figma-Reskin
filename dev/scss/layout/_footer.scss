@@ -4,13 +4,14 @@
 footer{
     background-color: $darkblue;
 }
+.fsec1{
+    border-bottom: 1px solid $grey5;
+    }
+
+.fsec2{
+    border-bottom: 1px solid $grey5;
+     }
 .location{
-    
-    .sec1{
-        border: 10px;
-        border-style: solid;
-        border-bottom: 100px black solid;
-        }
 
     display:grid;
         grid-template-columns:10% auto;

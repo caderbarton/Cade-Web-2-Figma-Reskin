@@ -29,6 +29,7 @@
          img{ height: 296px;}
      }
      @include md{
+        gap: 16px;
         padding-left: 16px;
         padding-left: 16px;
         display:grid;
